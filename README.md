@@ -5,3 +5,9 @@
 ```bash
 $ nix flake init --template 'github:xrelkd/templates#common'
 ```
+
+## Rust template
+
+```bash
+$ nix flake init --template 'github:xrelkd/templates#rust'
+```

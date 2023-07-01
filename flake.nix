@@ -3,10 +3,18 @@
 
   outputs = { self }: {
     templates = {
+      default = self.templates.rust;
+
       common = {
         path = ./common;
         description = "A very basic flake";
       };
+
+      rust = {
+        path = ./rust;
+        description = "Rust template";
+      };
+
     };
   };
 }
