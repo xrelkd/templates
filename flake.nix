@@ -15,6 +15,11 @@
         description = "Rust template";
       };
 
+      cpp = {
+        path = ./cpp;
+        description = "C++ template";
+      };
+
       go = {
         path = ./go;
         description = "Go template";

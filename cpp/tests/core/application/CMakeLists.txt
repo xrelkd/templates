@@ -1,0 +1,2 @@
+addtest(application_test application_test.cpp)
+target_link_libraries(application_test fixa_application)
