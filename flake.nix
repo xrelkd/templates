@@ -20,6 +20,11 @@
         description = "Go template";
       };
 
+      python = {
+        path = ./python;
+        description = "Python template";
+      };
+
     };
   };
 }

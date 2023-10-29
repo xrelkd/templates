@@ -17,3 +17,9 @@ $ nix flake init --template 'github:xrelkd/templates#rust'
 ```bash
 $ nix flake init --template 'github:xrelkd/templates#go'
 ```
+
+## Python template
+
+```bash
+$ nix flake init --template 'github:xrelkd/templates#python'
+```
