@@ -25,6 +25,11 @@
         description = "Go template";
       };
 
+      nodejs = {
+        path = ./nodejs;
+        description = "Node.js template";
+      };
+
     };
   };
 }

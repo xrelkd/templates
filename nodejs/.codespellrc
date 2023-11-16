@@ -1,0 +1,5 @@
+[codespell]
+skip = .git,./build,./node_modules,./yarn.lock,./patches
+ignore-words = ./dev-support/codespell-ignore
+check-filenames =
+check-hidden =

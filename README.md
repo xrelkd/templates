@@ -23,3 +23,9 @@ nix flake init --template 'github:xrelkd/templates#cpp'
 ```bash
 nix flake init --template 'github:xrelkd/templates#go'
 ```
+
+## Node.js template
+
+```bash
+nix flake init --template 'github:xrelkd/templates#nodejs'
+```
