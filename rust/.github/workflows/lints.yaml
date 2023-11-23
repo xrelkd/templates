@@ -60,13 +60,12 @@ jobs:
             --allow-missing-formatter \
             --fail-on-change \
             --no-cache \
-            --formatters \
-              prettier \
-              clang-format \
-              nix \
-              shell \
-              hcl \
-              toml
+            --formatters prettier \
+            --formatters clang-format \
+            --formatters nix \
+            --formatters shell \
+            --formatters hcl \
+            --formatters toml
 
       - name: Run sleek
         run: sleek --uppercase --indent-spaces=4 --lines-between-queries=2 --trailing-newline --check '**/*.sql'
